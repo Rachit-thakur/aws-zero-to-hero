@@ -80,4 +80,3 @@ Use cases:
 - CI/CD build agents.
 - Automated testing.
 - Stateless applications.
-Interview point: Spot Instances use spare AWS capacity at discounted rates, but AWS can interrupt them when that capacity is required.
