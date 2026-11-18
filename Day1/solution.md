@@ -80,3 +80,81 @@ Use cases:
 - CI/CD build agents.
 - Automated testing.
 - Stateless applications.
+
+---
+
+**Compare Cloud Models**
+   - Differentiate between **On-premises**, **Cloud**, and **Hybrid** models.  
+   - Write when each model is most appropriate (e.g., startups, enterprises, government projects).
+
+Compare Cloud Models: On-Premises, Cloud, and Hybrid
+There are three major infrastructure deployment models used by organizations: On-Premises, Cloud, and Hybrid Cloud.
+1. On-Premises Model
+Definition:
+On-premises means an organization manages and maintains its own IT infrastructure, including physical servers, storage, networking equipment, and security systems within its own premises.
+
+Example: A bank maintains its own data center to store customer information and run banking applications.
+
+Advantages:
+- Complete control over hardware and infrastructure.
+- Greater control over data security and privacy.
+- Customization according to business requirements.
+- No dependency on an external cloud provider.
+Disadvantages:
+- High initial investment in hardware and software.
+- Requires an IT team for maintenance.
+- Scaling resources takes more time.
+- Organization is responsible for backups and disaster recovery.
+When is it appropriate?
+- Government organizations handling sensitive data.
+- Banks and financial institutions.
+- Organizations with strict security and compliance requirements.
+- Enterprises that already have their own data centers.
+2. Cloud Model
+Definition:
+Cloud computing means using computing resources such as servers, storage, databases, and networking over the internet instead of maintaining physical infrastructure.
+
+These resources are provided by cloud service providers such as AWS, Microsoft Azure, and Google Cloud.
+
+Example: A startup hosts its website on AWS EC2 instead of purchasing physical servers.
+
+Advantages:
+- Low initial investment.
+- Pay-as-you-go pricing.
+- Easy and fast scalability.
+- Access resources from anywhere through the internet.
+- Cloud provider manages the physical infrastructure.
+Disadvantages:
+- Dependency on internet connectivity.
+- Less control over physical infrastructure.
+- Ongoing subscription or usage costs.
+- Potential security and compliance concerns if not configured properly.
+When is it appropriate?
+- Startups and small businesses.
+- Web and mobile application development.
+- Companies with changing workloads.
+- Businesses that need quick deployment and scalability.
+3. Hybrid Cloud Model
+Definition:
+A hybrid cloud is a combination of on-premises infrastructure and cloud computing. It allows organizations to use both environments and move data or applications between them when required.
+
+Example: A bank stores sensitive customer information in its private data center but hosts its website and less-sensitive applications on AWS.
+
+Advantages:
+- Combines the benefits of on-premises and cloud.
+- Sensitive data can remain on private infrastructure.
+- Provides flexibility and scalability.
+- Helps organizations gradually migrate to the cloud.
+- Supports disaster recovery and backup.
+Disadvantages:
+- Complex infrastructure management.
+- Requires skilled IT professionals.
+- Integration between systems can be difficult.
+- Security management across multiple environments can be challenging.
+When is it appropriate?
+- Large enterprises with existing data centers.
+- Banks and financial institutions.
+- Government projects with strict data requirements.
+- Organizations migrating gradually from on-premises to cloud.
+
+---
