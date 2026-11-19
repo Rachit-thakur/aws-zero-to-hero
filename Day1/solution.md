@@ -158,3 +158,145 @@ When is it appropriate?
 - Organizations migrating gradually from on-premises to cloud.
 
 ---
+
+**Explore Service Models**
+   - Learn about **IaaS**, **PaaS**, and **SaaS** with 2–3 examples for each.
+   - Explain how AWS provides these services (e.g., EC2 = IaaS, Lambda = PaaS, WorkMail = SaaS).
+
+
+Cloud computing provides services through the internet. These services are mainly divided into three models:
+1. IaaS – Infrastructure as a Service
+2. PaaS – Platform as a Service
+3. SaaS – Software as a Service
+The main difference between them is how much responsibility the cloud provider manages and how much responsibility the customer manages.
+
+Let's understand each model with examples from AWS and real-world applications.
+1. IaaS (Infrastructure as a Service)
+Definition
+IaaS provides basic IT infrastructure such as virtual machines, storage, and networking over the internet.
+
+The cloud provider manages the physical hardware, networking, and virtualization, while the customer manages the operating system, applications, data, and configurations.
+Example
+Suppose you want to host a Java application.
+
+Instead of purchasing a physical server, you rent a virtual machine from AWS using EC2.
+
+You install:
+- Linux operating system.
+- Java.
+- Apache or Nginx.
+- Your Java application.
+AWS manages the physical server, but you manage the operating system and application.
+AWS Examples
+1. Amazon EC2 (Elastic Compute Cloud)
+- Provides virtual machines.
+- You can install Linux or Windows.
+- You control CPU, RAM, storage, and OS configuration.
+- Used for hosting applications and websites.
+2. Amazon EBS (Elastic Block Store)
+- Provides block storage for EC2 instances.
+- Stores application data and operating system files.
+- You can increase storage according to requirements.
+3. Amazon VPC (Virtual Private Cloud)
+- Provides an isolated virtual network.
+- Allows you to configure subnets, route tables, and security groups.
+- Helps control network communication.
+Advantages
+- High control over infrastructure.
+- Flexible resource configuration.
+- Easy scalability.
+- Pay-as-you-go pricing.
+When to use IaaS?
+- When you need control over the operating system.
+- When hosting custom applications.
+- When migrating existing servers to the cloud.
+- When running Docker or Kubernetes workloads.
+2. PaaS (Platform as a Service)
+Definition
+PaaS provides a ready-to-use platform for developing, running, and deploying applications without managing the underlying infrastructure and operating system.
+
+The cloud provider manages the infrastructure, operating system, and runtime environment. Developers mainly focus on application code and data.
+Example
+Suppose you want to deploy a Spring Boot application.
+
+With IaaS, you need to:
+- Create an EC2 instance.
+- Install Linux.
+- Install Java.
+- Configure the environment.
+- Deploy your application.
+With PaaS, the provider manages much of this infrastructure and runtime work.
+
+You mainly focus on writing and deploying your application.
+AWS Examples
+1. AWS Elastic Beanstalk
+- Deploys applications without manually managing servers.
+- Supports Java, Python, Node.js, PHP, and other platforms.
+- Automatically manages provisioning, deployment, and application health monitoring.
+2. AWS Lambda
+- Runs code without requiring you to manage servers.
+- Automatically scales based on incoming requests or events.
+- You pay based on execution and resource consumption.
+Lambda is commonly classified as serverless computing and is often grouped with PaaS in introductory cloud-service comparisons. More precisely, it is FaaS (Function as a Service).
+
+3. AWS App Runner
+- Deploys web applications and APIs from source code or container images.
+- Automatically handles infrastructure provisioning, deployment, and scaling.
+- Developers focus on application development.
+Advantages
+- No need to manage physical servers.
+- Faster application development.
+- Less infrastructure management.
+- Automatic scaling and deployment capabilities.
+When to use PaaS?
+- When developing web applications.
+- When deploying APIs and microservices.
+- When you want to focus on application development.
+- When you don't want to manage operating systems and servers.
+3. SaaS (Software as a Service)
+Definition
+SaaS provides ready-to-use software applications over the internet. Users don't need to install, manage, or maintain the underlying infrastructure or application platform.
+
+The cloud provider manages almost everything, including:
+- Servers
+- Operating systems
+- Application software
+- Updates and maintenance
+- Infrastructure security
+The customer simply uses the software through a web browser or application.
+Example
+Suppose you want to send professional emails.
+
+Instead of setting up your own email server, installing software, and managing storage, you can use Gmail.
+
+Simply log in and start sending emails.
+AWS Examples
+1. Amazon QuickSight
+- Cloud-based business intelligence service.
+- Creates dashboards and visual reports.
+- Helps organizations analyze business data.
+2. Amazon Connect
+- Cloud-based contact center solution.
+- Helps businesses manage customer calls and interactions.
+- No need to build and maintain a traditional contact center infrastructure.
+3. Amazon Managed Grafana
+- Managed visualization and monitoring service.
+- Creates dashboards for application and infrastructure monitoring.
+- AWS manages the underlying Grafana infrastructure.
+Other Real-World SaaS Examples
+- Gmail – Email service.
+- Microsoft 365 – Office applications.
+- Salesforce – Customer relationship management (CRM).
+Advantages
+- No infrastructure management.
+- Accessible through the internet.
+- Automatic software updates.
+- Subscription-based pricing.
+- Easy to use.
+When to use SaaS?
+- When you need ready-made software.
+- When you don't want to manage servers or applications.
+- When businesses need email, CRM, or collaboration tools.
+- When employees need access to software from different locations.
+
+---
