@@ -300,3 +300,62 @@ When to use SaaS?
 - When employees need access to software from different locations.
 
 ---
+
+*AWS History & Key Milestones**
+   - Learn about the *evolution of AWS* — when it started, its major launches (like EC2, S3, Lambda, etc.), and how it became the #1 cloud provider.
+   - Share 3–4 key milestones as a carousel or post on LinkedIn.
+
+   AWS History & Key Milestones
+1. What is AWS and When Did It Start?
+
+AWS (Amazon Web Services) is a cloud computing platform provided by Amazon. It offers services such as computing, storage, databases, networking, security, artificial intelligence, and serverless computing.
+
+AWS was publicly launched on March 14, 2006, with Amazon S3 as its first publicly launched cloud service.
+
+Interestingly, Amazon had introduced Amazon Simple Queue Service (SQS) in preview in November 2004, before the public launch of AWS.
+
+A few months after S3, Amazon introduced EC2, allowing customers to rent virtual servers over the internet.
+
+Understanding Important Launches
+1. Amazon S3 (2006)
+- Full form: Simple Storage Service.
+- Provides object storage.
+- Used to store images, videos, documents, backups, and application data.
+2. Amazon EC2 (2006)
+- Full form: Elastic Compute Cloud.
+- Provides virtual machines.
+- Used to host websites, applications, and databases.
+3. AWS Lambda (2014)
+- Runs code without managing servers.
+- Automatically scales based on events and requests.
+- Used for serverless applications and automation.
+4. Amazon EKS (2017)
+- Full form: Elastic Kubernetes Service.
+- Provides managed Kubernetes.
+- Used to deploy and manage containerized applications.
+5. Amazon Bedrock (2023)
+- Provides access to foundation models.
+- Used to build generative AI applications.
+
+How Did AWS Become the No. 1 Cloud Provider?
+AWS became the leading cloud infrastructure provider through several important factors.
+1. Early Entry into Cloud Computing
+AWS entered the public cloud market in 2006, giving it an early advantage over many competitors.
+2. Wide Range of Services
+AWS expanded from basic storage and computing into databases, networking, security, analytics, machine learning, and AI.
+3. Pay-as-you-go Pricing
+Customers can pay for the resources they consume instead of investing heavily in physical servers.
+4. Global Infrastructure
+AWS expanded its global network of Regions and Availability Zones, helping businesses deploy applications closer to their customers.
+5. Scalability and Reliability
+AWS provides services that allow organizations to scale resources according to demand and build highly available applications.
+6. Strong Customer and Partner Ecosystem
+Startups, enterprises, developers, and technology partners helped expand AWS adoption.
+Current Market Position
+According to Synergy Research Group, AWS maintained its leading position in the global cloud infrastructure market in Q2 2026, with approximately 28% market share.
+
+Its major competitors were:
+- Microsoft Azure: 20%
+- Google Cloud: 15%
+
+---
